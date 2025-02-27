@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #xyz{
+    background-color: aqua;
+    border: 1px solid black;
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <h1>Ramadan Countdown</h1>
+    <div id="xyz"></div>
+    <script>
+        var getRes=document.getElementById('xyz')
+function abc(){
+    var fixDate=new Date('1 mar,2025')
+var fixcal=fixDate.getTime()
+var runDate=new Date()
+var runcal=runDate.getTime()
+var sec=(fixcal-runcal)/1000
+var dy=sec/86400 //day
+var dyfl=Math.floor(dy)
+var hr=(dy-dyfl)*24//hour
+var hrfl=Math.floor(hr)
+var mn=(hr-hrfl)*60//min
+var mnfl=Math.floor(mn)
+var sc=(mn-mnfl)*60//sec
+    getRes.innerText=`${Math.floor(dy)} Days, ${Math.floor(hr)} Hours, ${Math.floor(mn)} Minutes, ${Math.floor(sc)} Seconds`
+}
+setInterval(abc,1000)
+    </script>
+</body>
+</html>

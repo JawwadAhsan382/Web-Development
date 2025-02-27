@@ -1,0 +1,45 @@
+#username,#useraddress{
+    background-color: whitesmoke;
+    width: 80%;
+}
+select{
+    background-color: whitesmoke;
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 250px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.btn{
+    width: 100px;
+}
+.res-container{
+    margin: 50px 0px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.abc{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 260px;
+    padding: 20px 0px;
+    text-align: center;
+    align-content: center;
+}
+.but-control{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.but-control>button{
+    width: 100px;
+}

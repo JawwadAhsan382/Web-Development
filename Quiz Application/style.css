@@ -1,0 +1,24 @@
+img{
+    display: none;
+}
+body{
+    padding-left: 10px;
+}
+label{
+    margin-left: 10px;
+}
+.timer{
+    background-color: red;
+    text-align: center;
+    color: white;
+    width: 200px;
+}
+.abc{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:500px){
+    img{
+        width: 100%;
+    }
+}
