@@ -13,6 +13,7 @@ function col(x){
         document.getElementById('ifr2').style.display='none'
         document.getElementById('ifr3').style.display='none'
 }
+
 function im(y){
     document.getElementById('scr').style.backgroundColor='transparent'
     document.getElementById('ifr1').style.display='none'
